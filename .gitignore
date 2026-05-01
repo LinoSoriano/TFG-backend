@@ -1,0 +1,4 @@
+node_modules/
+.env
+*.log
+linosoriano-tfg-firebase-firebase-adminsdk-fbsvc-197cfa9934.json

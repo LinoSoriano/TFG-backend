@@ -1,0 +1,15 @@
+module.exports = {
+  COL_VERSION:                   process.env.FIRESTORE_COLLECTION_VERSION_CONTENIDO          || 'version_contenido',
+  COL_NODOS_DECISION:            'nodos_decision',
+  COL_NODOS_OPCIONES:            'nodos_opciones',
+  COL_EMERGENCIAS:               'emergencias',
+  COL_GUIAS:                     'guias',
+  COL_PASOS_GUIA:                'pasos_guia',
+  COL_HERRAMIENTAS:              'herramientas',
+  COL_GUIA_HERRAMIENTA:          'guia_herramienta',
+  COL_TRADUCCIONES:              'traducciones',
+  COL_IDIOMAS:                   'idiomas',
+  COL_USUARIOS:                  process.env.FIRESTORE_COLLECTION_USUARIOS                   || 'usuarios',
+  COL_REGISTRO_DISPOSITIVOS:     process.env.FIRESTORE_COLLECTION_REGISTRO_DISPOSITIVOS      || 'registro_dispositivos',
+  COL_REGISTRO_SINCRONIZACIONES: process.env.FIRESTORE_COLLECTION_REGISTRO_SINCRONIZACIONES  || 'registro_sincronizaciones',
+};
