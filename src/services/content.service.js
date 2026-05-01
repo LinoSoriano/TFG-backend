@@ -106,10 +106,13 @@ async function getContentPackage() {
   }));
 
   // Construir payload_traducciones desde la colección traducciones
+  // Solo se incluyen documentos con id_texto numérico (los creados por el seed/API).
+  // Los creados por el panel admin sin id_texto se omiten para evitar fallos en el sync móvil.
   const textos = [];
   const traducciones = [];
   for (const doc of traduccionesSnap.docs) {
     const data = doc.data();
+    if (data.id_texto == null) continue;
     textos.push({
       id_texto:     data.id_texto,
       nombre_texto: data.nombre_texto,
