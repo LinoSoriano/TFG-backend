@@ -2,7 +2,12 @@ const { admin, db, auth } = require('../config/firebase');
 
 async function assignRole(uid, rol) {
   await auth.setCustomUserClaims(uid, { rol });
-  await db.collection('usuarios').doc(uid).set({ rol }, { merge: true });
+  const userRecord = await auth.getUser(uid);
+  await db.collection('usuarios').doc(uid).set({
+    uid,
+    email: userRecord.email,
+    rol,
+  }, { merge: true });
 }
 
 async function getIdiomas() {

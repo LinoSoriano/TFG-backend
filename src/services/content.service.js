@@ -50,15 +50,19 @@ async function getContentPackage() {
     db.collection(COL_IDIOMAS).get(),
   ]);
 
-  // Mapeo Firestore → nombres de columna SQLite que espera el frontend
-  const nodos = nodosSnap.docs.map(doc => ({
+  // Mapeo Firestore → nombres de columna SQLite que espera el frontend.
+  // Se filtran documentos con ID no numérico (creados fuera del panel admin)
+  // porque parseInt devolvería NaN → null y romperían la sincronización móvil.
+  const isNumericId = (doc) => Number.isFinite(parseInt(doc.id));
+
+  const nodos = nodosSnap.docs.filter(isNumericId).map(doc => ({
     id_nodo:       parseInt(doc.id),
     pregunta_nodo: doc.data().pregunta,
     id_version:    doc.data().id_version    ?? null,
     nodo_anterior: doc.data().nodo_anterior ?? null,
   }));
 
-  const opciones = opcionesSnap.docs.map(doc => ({
+  const opciones = opcionesSnap.docs.filter(isNumericId).map(doc => ({
     id_opcion:             parseInt(doc.id),
     id_nodo:               doc.data().id_nodo,
     texto_opcion:          doc.data().texto,
@@ -66,7 +70,7 @@ async function getContentPackage() {
     emergencia_resultante: doc.data().emergencia_resultante ?? null,
   }));
 
-  const emergencias = emergenciasSnap.docs.map(doc => ({
+  const emergencias = emergenciasSnap.docs.filter(isNumericId).map(doc => ({
     id_emergencia:         parseInt(doc.id),
     titulo_emergencia:     doc.data().titulo,
     descripcion_emergencia:doc.data().descripcion,
@@ -74,7 +78,7 @@ async function getContentPackage() {
     version_id:            doc.data().version_id            ?? null,
   }));
 
-  const guias = guiasSnap.docs.map(doc => ({
+  const guias = guiasSnap.docs.filter(isNumericId).map(doc => ({
     id_guia:        parseInt(doc.id),
     id_emergencia:  doc.data().id_emergencia,
     titulo_guia:    doc.data().titulo,
@@ -83,7 +87,7 @@ async function getContentPackage() {
     version_id:     doc.data().version_id ?? null,
   }));
 
-  const pasos = pasosSnap.docs.map(doc => ({
+  const pasos = pasosSnap.docs.filter(isNumericId).map(doc => ({
     id_paso:       parseInt(doc.id),
     id_guia:       doc.data().id_guia,
     titulo_paso:   doc.data().titulo,
@@ -91,7 +95,7 @@ async function getContentPackage() {
     orden_paso:    doc.data().orden,
   }));
 
-  const herramientas = herramientasSnap.docs.map(doc => ({
+  const herramientas = herramientasSnap.docs.filter(isNumericId).map(doc => ({
     id_herramienta:        parseInt(doc.id),
     nombre_herramienta:    doc.data().nombre,
     descripcion_herramienta:doc.data().descripcion,

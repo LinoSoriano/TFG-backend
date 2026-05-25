@@ -12,7 +12,11 @@ async function main() {
 
   const userRecord = await auth.getUserByEmail(email);
   await auth.setCustomUserClaims(userRecord.uid, { rol: 'gestor' });
-  await db.collection('usuarios').doc(userRecord.uid).set({ rol: 'gestor' }, { merge: true });
+  await db.collection('usuarios').doc(userRecord.uid).set({
+    uid: userRecord.uid,
+    email: userRecord.email,
+    rol: 'gestor',
+  }, { merge: true });
 
   console.log(`✓ Rol 'gestor' asignado a ${email} (uid: ${userRecord.uid})`);
   process.exit(0);
