@@ -238,7 +238,7 @@ async function seed() {
     'Localización exacta de la hemorragia\nIntensidad del sangrado (abundante, a borbotones)\nSi has aplicado compresión directa sobre la herida\nSi la persona muestra signos de shock (palidez, sudor frío, temblores)',
     'Exact location of the bleeding\nIntensity of bleeding (heavy, spurting)\nIf you have applied direct pressure on the wound\nIf the person shows signs of shock (paleness, cold sweat, tremors)',
     'Nøyaktig plassering av blødningen\nBlødningsintensitet (kraftig, pumping)\nOm du har påført direkte trykk på såret\nOm personen viser tegn på sjokk (blekhet, kaldsvette, skjelvinger)',
-    'Localisation exacte de l\'hémorragie\nIntensité du saignement (abondant, en jets)\nSi vous avez appliqué une pression directe sur la blessure\nSi la personne montre des signes de choc (pâleur, sueurs froides, tremblements)',
+    'Localisation exacte de l\'hémorragie\nIntensité du saignement (abondant, en jets...)\nSi vous avez appliqué une pression directe sur la blessure\nSi la personne montre des signes de choc (pâleur, sueurs froides, tremblements)',
     'Localització exacta de l\'hemorràgia\nIntensitat del sagnat (abundant, a rajolades)\nSi has aplicat compressió directa sobre la ferida\nSi la persona mostra signes de xoc (pal·lidesa, suor freda, tremolors)',
     'Nøjagtig placering af blødningen\nBlødningens intensitet (kraftig, pumper)\nOm du har påført direkte tryk på såret\nOm personen viser tegn på shock (bleghed, koldsved, rysteture)');
   trad(13, 'emergencia.5.titulo',       'emergencia',
@@ -259,7 +259,7 @@ async function seed() {
     'Debilidad o caída de un lado de la cara\nDesde cuándo comenzaron los síntomas (CRÍTICO)\nSi hay dificultad para hablar o entender\nSi hay debilidad en brazo o pierna',
     'Weakness or drooping on one side of the face\nWhen symptoms started (CRITICAL)\nIf there is difficulty speaking or understanding\nIf there is weakness in arm or leg',
     'Svakhet eller henging på den ene siden av ansiktet\nNår symptomene begynte (KRITISK)\nOm det er vanskeligheter med å snakke eller forstå\nOm det er svakhet i arm eller bein',
-    'Faiblesse ou affaissement d\'un côté du visage\nDepuis quand les symptômes ont commencé (CRITIQUE)\nS\'il y a des difficultés à parler ou à comprendre\nS\'il y a une faiblesse dans le bras ou la jambe',
+    'Affaissement d\'un côté du visage\nQuand les symptômes ont commencé (CRITIQUE)\nS\'il y a des difficultés à parler ou à comprendre\nS\'il y a une faiblesse dans le bras ou la jambe',
     'Debilitat o caiguda d\'un costat de la cara\nDes de quan van começar els símptomes (CRÍTIC)\nSi hi ha dificultat per parlar o entendre\nSi hi ha debilitat al braç o a la cama',
     'Svaghed eller hængende på den ene side af ansigtet\nHvornår symptomerne startede (KRITISK)\nOm der er vanskeligheder med at tale eller forstå\nOm der er svaghed i arm eller ben');
   trad(16, 'emergencia.6.titulo',       'emergencia',
@@ -280,7 +280,7 @@ async function seed() {
     'Dolor intenso en el pecho, opresión o fuerte presión\nDesde cuándo lleva el dolor\nSi el dolor irradia hacia brazo, cuello o mandíbula\nSi hay sudor frío, náuseas o dificultad respiratoria',
     'Intense chest pain, tightness or strong pressure\nHow long the pain has lasted\nIf the pain radiates to the arm, neck or jaw\nIf there is cold sweat, nausea or breathing difficulty',
     'Intense brystsmerter, trykk eller sterk press\nHvor lenge smertene har vart\nOm smertene stråler til arm, nakke eller kjeve\nOm det er kaldsvette, kvalme eller pustevansker',
-    'Douleur intense dans la poitrine, oppression ou forte pression\nDepuis combien de temps la douleur dure\nSi la douleur irradie vers le bras, le cou ou la mâchoire\nS\'il y a des sueurs froides, nausées ou difficultés respiratoires',
+    'Douleur intense dans la poitrine, oppression ou forte pression\nCombien de temps la douleur dure\nSi la douleur irradie vers le bras, le cou ou la mâchoire\nS\'il y a des sueurs froides, nausées ou difficultés respiratoires',
     'Dolor intens al pit, opressió o forta pressió\nDes de quan dura el dolor\nSi el dolor irradia cap al braç, coll o mandíbula\nSi hi ha suor freda, nàusees o dificultat respiratòria',
     'Intense brystsmerter, trykken eller stærkt pres\nHvor længe smerten har varet\nOm smerten stråler ud i arm, nakke eller kæbe\nOm der er koldsved, kvalme eller åndedrætsbesvær');
   trad(19, 'emergencia.7.titulo',       'emergencia',
@@ -301,7 +301,7 @@ async function seed() {
     'La persona está atragantada (incapaz de hablar)\nSi puede toser o hablar (atragantamiento parcial vs total)\nSi ya ha iniciado maniobras de Heimlich\nSi presenta coloración azulada (cianosis)',
     'The person is choking (unable to speak)\nIf they can cough or speak (partial vs total obstruction)\nIf Heimlich maneuver has already been initiated\nIf there is bluish coloration (cyanosis)',
     'Personen er kvelnet (ute av stand til å snakke)\nOm han/hun kan hoste eller snakke (delvis vs total tilstopping)\nOm Heimlich-manøveren allerede er igangsatt\nOm det er blåfarge (cyanose)',
-    'La personne s\'étouffe (incapable de parler)\nSi elle peut tousser ou parler (obstruction partielle vs totale)\nSi la manœuvre de Heimlich a déjà été initiée\nSi elle présente une coloration bleutée (cyanose)',
+    'La victime s\'étouffe (incapacité de parler)\nSi elle peut tousser ou parler (obstruction partielle vs totale)\nSi la manœuvre de Heimlich a déjà été commencée\nSi elle présente une coloration bleutée (cyanose)',
     'La persona s\'ofega (incapaç de parlar)\nSi pot tossir o parlar (ofegament parcial vs total)\nSi ja s\'han iniciat maniobres de Heimlich\nSi presenta coloració blavosa (cianosi)',
     'Personen kvæler sig (ude af stand til at tale)\nOm vedkommende kan hoste eller tale (delvis vs total tilstopning)\nOm Heimlich-manøvren allerede er iværksat\nOm der er blålig misfarvning (cyanose)');
   trad(22, 'emergencia.8.titulo',       'emergencia',
@@ -322,7 +322,7 @@ async function seed() {
     'Duración de las convulsiones\nSi es la primera vez o tiene historial de epilepsia\nSi ha perdido el conocimiento\nSi hay lesiones tras la convulsión',
     'Duration of the seizures\nIf it is the first time or has a history of epilepsy\nIf they have lost consciousness\nIf there are injuries after the seizure',
     'Varighet av anfallet\nOm det er første gang eller har epilepsihistorikk\nOm bevisstheten er tapt\nOm det er skader etter anfallet',
-    'Durée des convulsions\nSi c\'est la première fois ou s\'il a des antécédents d\'épilepsie\nS\'il a perdu connaissance\nS\'il y a des blessures après la convulsion',
+    'Durée des convulsions\nSi c\'est la première fois ou s\'il a des antécédents d\'épilepsie\nS\'il a perdu conscience\nS\'il y a des blessures après la convulsion',
     'Durada de les convulsions\nSi és la primera vegada o té historial d\'epilèpsia\nSi ha perdut el coneixement\nSi hi ha lesions després de la convulsió',
     'Anfaldets varighed\nOm det er første gang eller har epilepsihistorik\nOm bevidstheden er tabt\nOm der er skader efter anfallet');
   trad(25, 'emergencia.9.titulo',       'emergencia',
@@ -343,7 +343,7 @@ async function seed() {
     'La persona NO respira o respira de forma anormal\nEstá inconsciente, no responde a estímulos\nSi ya has iniciado o iniciarás RCP (30 compresiones / 2 ventilaciones)\nSi hay un DEA (desfibrilador) disponible cerca',
     'The person is NOT breathing or breathing abnormally\nUnconscious, does not respond to stimuli\nIf you have started or will start CPR (30 compressions / 2 ventilations)\nIf there is an AED (defibrillator) available nearby',
     'Personen puster IKKE eller puster unormalt\nEr bevisstløs, reagerer ikke på stimuli\nOm du har startet eller vil starte HLR (30 kompresjoner / 2 innblåsninger)\nOm det er en AED (hjertestarter) tilgjengelig i nærheten',
-    'La personne ne respire PAS ou respire de façon anormale\nEst inconsciente, ne répond pas aux stimuli\nSi vous avez commencé ou commencerez la RCP (30 compressions / 2 ventilations)\nS\'il y a un DAE (défibrillateur) disponible à proximité',
+    'La victime ne respire PAS ou respire de façon anormale\nEst inconsciente, ne répond pas aux stimules\nSi vous avez commencé ou allez commencer la RCP (30 compressions / 2 ventilations)\nS\'il y a un DAE (défibrillateur) disponible à proximité',
     'La persona NO respira o respira de forma anormal\nEstà inconscient, no respon a estímuls\nSi ja has iniciat o iniciàs RCP (30 compressions / 2 ventilacions)\nSi hi ha un DEA (desfibril·lador) disponible a prop',
     'Personen puster IKKE eller puster unormalt\nEr bevidstløs, reagerer ikke på stimuli\nOm du har påbegyndt eller vil påbegynde HLR (30 kompressioner / 2 indblæsninger)\nOm der er en AED (hjertestarter) tilgængeligt i nærheden');
   trad(28, 'emergencia.10.titulo',      'emergencia',
@@ -364,7 +364,7 @@ async function seed() {
     'La persona está inconsciente pero respira\nYa la ha colocado en Posición Lateral de Seguridad (PLS)\nHace cuánto tiempo perdió la consciencia\nSi hay lesiones visibles (golpes en la cabeza, sangrado, etc.)',
     'The person is unconscious but breathing\nHas already been placed in Recovery Position\nHow long ago they lost consciousness\nIf there are visible injuries (head blows, bleeding, etc.)',
     'Personen er bevisstløs men puster\nEr allerede lagt i stabilt sideleie\nHvor lenge siden bevisstheten ble tapt\nOm det er synlige skader (hodeskader, blødning, etc.)',
-    'La personne est inconsciente mais respire\nA déjà été placée en Position Latérale de Sécurité (PLS)\nDepuis combien de temps elle a perdu connaissance\nS\'il y a des blessures visibles (coups à la tête, saignement, etc.)',
+    'La victime se trouve inconsciente mais respire\nA déjà été placée en Position Latérale de Sécurité (PLS)\ncombien de temps elle a perdu connaissance\nS\'il y a des blessures visibles (coups à la tête, saignement, etc.)',
     'La persona és inconscient però respira\nJa s\'ha col·locat en Posició Lateral de Seguretat (PLS)\nFa quant temps va perdre la consciència\nSi hi ha lesions visibles (cops al cap, sagnat, etc.)',
     'Personen er bevidstløs men vejrtrækker\nEr allerede lagt i stabilt sideleje\nHvor længe siden vedkommende mistede bevidstheden\nOm der er synlige skader (slag til hovedet, blødning, osv.)');
 
@@ -615,7 +615,7 @@ async function seed() {
     'Forbered HLR', 'Préparer la RCP', 'Preparar RCP', 'Forbered HLR');
   trad(69,  'paso.4.contenido',  'paso',
     'Prepararse para iniciar RCP si pierde el conocimiento', 'Be ready to start CPR if they lose consciousness',
-    'Vær klar til å starte HLR hvis bevisstheten tapes', 'Se préparer à commencer la RCP en cas de perte de connaissance', 'Preparar-se per iniciar RCP si perd el coneixement', 'Vær parat til at påbegynde HLR, hvis bevidstheden mistes');
+    'Vær klar til å starte HLR hvis bevisstheten tapes', 'Se préparer à commencer la RCP en cas de perte de conscience', 'Preparar-se per iniciar RCP si perd el coneixement', 'Vær parat til at påbegynde HLR, hvis bevidstheden mistes');
   trad(70,  'paso.5.titulo',     'paso',
     'Llamar a emergencias', 'Call emergency services',
     'Ring nødnummeret', 'Appeler les secours', 'Trucar a emergències', 'Ring til nødtjenester');
@@ -645,7 +645,7 @@ async function seed() {
     'Ikke vent', 'Ne pas attendre', 'No esperar', 'Vent ikke');
   trad(79,  'paso.9.contenido',  'paso',
     'No esperar: el tiempo es crítico para limitar el daño cerebral', 'Do not wait: time is critical to limit brain damage',
-    'Ikke vent: tid er avgjørende for å begrense hjerneskaden', 'Ne pas attendre : le temps est critique pour limiter les dommages cérébraux', 'No esperar: el temps és crític per limitar el dany cerebral', 'Vent ikke: tid er afgørende for at begrænse hjerneskaden');
+    'Ikke vent: tid er avgjørende for å begrense hjerneskaden', 'Ne pas attendre : le temps est CRITIQUE pour limiter les dommages cérébraux', 'No esperar: el temps és crític per limitar el dany cerebral', 'Vent ikke: tid er afgørende for at begrænse hjerneskaden');
   trad(80,  'paso.10.titulo',    'paso',
     'Proteger la cabeza', 'Protect the head',
     'Beskytt hodet', 'Protéger la tête', 'Protegir el cap', 'Beskyt hovedet');
@@ -663,7 +663,7 @@ async function seed() {
     'Sideleie', 'Position latérale', 'Posició lateral', 'Sideleje');
   trad(85,  'paso.12.contenido', 'paso',
     'Tras la convulsión, colocar a la persona de lado', 'After the seizure, place the person on their side',
-    'Etter anfallet, legg personen på siden', 'Après la convulsion, placer la personne sur le côté', 'Després de la convulsió, col·locar la persona de costat', 'Efter anfallet, læg personen på siden');
+    'Etter anfallet, legg personen på siden', 'Après la convulsion, placer la victime sur le côté', 'Després de la convulsió, col·locar la persona de costat', 'Efter anfallet, læg personen på siden');
   trad(86,  'paso.13.titulo',    'paso',
     'Animar a toser', 'Encourage coughing',
     'Oppmuntre til hosting', 'Encourager la toux', 'Animar a tossir', 'Opfordr til at hoste');
@@ -705,7 +705,7 @@ async function seed() {
     'Løft ekstremiteten', 'Élever le membre', 'Elevar extremitat', 'Løft ekstremiteten');
   trad(99,  'paso.19.contenido', 'paso',
     'Elevar la extremidad lesionada si es posible y no hay fractura', 'Elevate the injured limb if possible and there is no fracture',
-    'Løft den skadede ekstremiteten hvis mulig og det ikke er brudd', 'Élever le membre blessé si possible et en l\'absence de fracture', 'Elevar l\'extremitat lesionada si és possible i no hi ha fractura', 'Løft den skadede ekstremitet, hvis muligt og der ikke er brud');
+    'Løft den skadede ekstremiteten hvis mulig og det ikke er brudd', 'Élever le membre blessé si possible et SEULEMENT en l\'absence de fracture', 'Elevar l\'extremitat lesionada si és possible i no hi ha fractura', 'Løft den skadede ekstremitet, hvis muligt og der ikke er brud');
 
   // herramientas (100-113)
   trad(100, 'herramienta.1.nombre',      'herramienta',
@@ -817,7 +817,7 @@ async function seed() {
     'Generell informasjon å nevne:', 'Informations générales à mentionner :', 'Informació general a mencionar:', 'Generel information at nævne:');
   trad(129, 'resultado.noCuelgues',      'resultado',
     'NO CUELGUES. Permanece en línea y sigue las instrucciones del operador.', 'DO NOT HANG UP. Stay on the line and follow the operator\'s instructions.',
-    'IKKE LEGG PÅ. Bli på linjen og følg instruksjonene fra operatøren.', 'NE RACCROCHEZ PAS. Restez en ligne et suivez les instructions de l\'opérateur.', 'NO PENGIS. Mantén la línia i segueix les instruccions de l\'operador.', 'LAG IKKE PÅ. Bliv på linjen og følg operatørens instruktioner.');
+    'IKKE LEGG PÅ. Bli på linjen og følg instruksjonene fra operatøren.', 'PAS RACCROCHEZ S.V.P. Restez en ligne et suivez les instructions de l\'opérateur.', 'NO PENGIS. Mantén la línia i segueix les instruccions de l\'operador.', 'LAG IKKE PÅ. Bliv på linjen og følg operatørens instruktioner.');
   trad(130, 'resultado.reiniciar',       'resultado',
     'Reiniciar', 'Restart',
     'Start på nytt', 'Recommencer', 'Reiniciar', 'Genstart');
@@ -826,7 +826,7 @@ async function seed() {
     'Se fullstendig guide', 'Voir le guide complet', 'Veure guia completa', 'Se den komplette guide');
   trad(132, 'resultado.info1',           'resultado',
     'Ubicación exacta: calle, número, población y puntos de referencia', 'Exact location: street, number, town and landmarks',
-    'Nøyaktig adresse: gate, nummer, sted og referansepunkter', 'Localisation exacte : rue, numéro, ville et points de repère', 'Ubicació exacta: carrer, número, població i punts de referència', 'Nøjagtig adresse: gade, nummer, by og referencepunkter');
+    'Nøyaktig adresse: gate, nummer, sted og referansepunkter', 'Localisation exacte : coordonnées, ville et points de repère', 'Ubicació exacta: carrer, número, població i punts de referència', 'Nøjagtig adresse: gade, nummer, by og referencepunkter');
   trad(133, 'resultado.info2',           'resultado',
     'Qué ha ocurrido (accidente, desmayo, caída, etc.)', 'What happened (accident, fainting, fall, etc.)',
     'Hva som har skjedd (ulykke, besvimelse, fall, etc.)', 'Ce qui s\'est passé (accident, évanouissement, chute, etc.)', 'Què ha ocorregut (accident, desmai, caiguda, etc.)', 'Hvad der er sket (ulykke, besvimelse, fald, osv.)');
